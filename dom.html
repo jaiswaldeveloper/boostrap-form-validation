@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="top-header">
+      <div id="small-header">manoj sharma</div>
+      <div id="bootom-header">rahul sharma</div>
+      <div id="left-header">rahul sharma</div>
+    </div>
+
+    <script>
+      var smallheader = document.getElementById('small-header');
+      smallheader.textContent = 'vivek aagarwal';
+      smallheader.innerText = 'maynak aagarwal';
+      smallheader.innerHTML = '<h1>sharma classes</h1>';
+
+      var topheader = document.getElementById('top-header');
+      topheader.style.borderBottom = '2px solid #000000';
+
+      var bootomheader = document.getElementById('bootom-header');
+
+      document.write('<h1><i>hello i am dynamic</i></h1>');
+    </script>
+  </body>
+</html>
